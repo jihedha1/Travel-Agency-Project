@@ -1,0 +1,179 @@
+.nav{
+    background-color: rgba(2, 187, 221, 0.5); 
+    color: #FFFF;
+    margin-top: 0%;
+    width: 100 vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1.74fr 3fr 1fr 1fr 1fr 1fr 1fr 0.5fr ;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.lien1{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.lien1:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+
+    padding: 4;
+    height: 9vh;
+    width: 9 vw;
+    margin-left: 10vw ;
+    
+}
+.a{
+
+    margin-left: 0vw;
+    margin-top:6;
+    
+}
+body{
+margin: 0;
+background-image: url(./tourist-supplies-green.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+}
+.botnav{
+    background: none;
+    margin-top: 0;
+    height: 10vh;
+    color: #FFFF;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+}
+.botnav:hover{
+    background-color: rgba(255, 255, 255, 0.7); 
+    color:#f4511e  ;
+
+}
+.logo1{
+    width: 20vw;
+    height: 35vh;
+    margin-top: 5vh;
+}
+.point{
+    color: #f4511e;
+    font-size: 40px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+footer{
+    background-color: rgba(48, 48, 48, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vh;
+    align-items: center;
+}
+.aa{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFF;
+
+
+}
+.fa{
+    display: flex;
+    flex-direction: row;
+  }
+.co{
+    color: #FFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.botnav1{
+    background-color:  rgba(255, 255, 255, 1);
+    margin-top: 0;
+    height: 10vh;
+    color: #f4511e;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+}
+#propos{
+    margin-top: 10vh;
+    height: 128vh;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7) ;
+}
+.titre{
+    padding-top: 15;
+    padding-left: 60;
+    color: #f4511e;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 60vw;
+
+}
+.contenu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.description{
+    color: #0c264c;
+    width: 45vw;
+    height: 90vh;
+    margin-top: 0;
+    font-size: 24px;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500 ;
+    margin-left: 3vw;
+}
+.T1{
+    width: 35vw;
+    height: 86vh;
+    margin-bottom: 20vh;
+    border-radius: 30px;
+    margin-top: 5vh;
+}
+.a:hover{
+    color: #0c264c;
+    transform: scale(1.2);
+
+}
+a {
+    text-decoration: none; 
+    color: #fff;
+    margin-left: 2vw;
+  }
+  .logo:hover{
+    transform: scale(1.1);
+
+}
+.logo{
+    margin-right: 1vw;
+}

@@ -1,0 +1,178 @@
+.animate-charcter
+{
+text-transform: uppercase;
+background-image: linear-gradient(
+    -225deg,
+    rgba(2, 187, 221, 1) 0%,
+    #0c264c 29%,
+    #F4511E 67%,
+    rgba(2, 187, 221, 1) 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-emphasis-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 5s linear infinite;
+display: inline-block;
+font-size: 80px;
+font-family: "Protest Riot", sans-serif;
+font-weight: 400;
+margin-top: 0;
+font-style: normal;
+text-align: center;
+align-items: center;
+opacity: 0.9;
+
+}
+.animate-charcter:hover {
+    opacity: 1;
+    transform: scale(1.2); 
+  }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.lien1{
+  text-decoration: none;
+  color: #FFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lien1:hover{
+  transform: scale(1.2);
+}
+
+.titre1{
+  color: #f4511e ;
+  font-size: 20px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5vh;
+}
+body{
+    background-image: url(./bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    background-color: rgba(2, 187, 221, 0.5); 
+    color: #FFFF;
+    width: 100 vw;
+    height: 12vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 15;
+    padding-bottom: 8;
+    font-size: 30px;
+    margin-right: 0;
+    right: 0;
+    
+}
+.zzz{
+    margin-left: 3vw;
+    margin-top:12px ;
+    
+}
+.logo{
+    height: 10vh;
+    width: 10 vw;
+    margin-left: 30vw ;
+    opacity: 0.8 ;
+}
+.row{
+  padding-top: 40px;
+  margin-top: 10vh;
+  margin-left: 25vw ;
+  width: 50vw;
+  height: 30vh;
+  border-radius: 20px;
+  background-color: rgb(24, 27, 27,0.5);
+  align-items: center;
+  text-align: center;
+}
+.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #fff;
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #02b8dd;
+  border: 1px solid #02b8dd;
+  box-shadow: 6px 6px 12px #02b8dd, -6px -6px 12px #ffffff;
+  width: 70%;
+}
+
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #f4511e, inset -4px -4px 12px #ffffff;
+}
+
+.button2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(2, 187, 221, 0.5);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #f4511e;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #f4511e;
+  box-shadow: 6px 6px 12px #f4511e, -6px -6px 12px #ffffff;
+  
+}
+.ss{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 30px;
+}
+.button2:hover:before {
+  top: -35%;
+  background-color: #f4511e;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #f4511e;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+
+}

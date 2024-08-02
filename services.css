@@ -1,0 +1,205 @@
+.nav{
+    background-color: rgba(2, 187, 221, 0.5); 
+    color: #FFFF;
+    margin-top: 0%;
+    width: 100 vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1.74fr 3fr 1fr 1fr 1fr 1fr 1fr 0.5fr ;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+
+    padding: 4;
+    height: 9vh;
+    width: 9 vw;
+    margin-left: 10vw ;
+    
+}
+.a{
+
+    margin-left: 0vw;
+    margin-top:6;
+    
+}
+body{
+margin: 0;
+background-image: url(./tourist-supplies-green.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+}
+.botnav{
+    background: none;
+    margin-top: 0;
+    height: 10vh;
+    color: #FFFF;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+}
+.botnav:hover{
+    background-color: rgba(255, 255, 255, 0.7); 
+    color:#f4511e  ;
+
+}
+.logo1{
+    width: 20vw;
+    height: 35vh;
+    margin-top: 5vh;
+}
+.point{
+    color: #f4511e;
+    font-size: 40px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+footer{
+    background-color: rgba(48, 48, 48, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    align-items: center;
+}
+.aa{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFF;
+
+
+}
+.fa{
+    display: flex;
+    flex-direction: row;
+  }
+.co{
+    color: #FFFF;
+      font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.a:hover{
+    color: #0c264c;
+    transform: scale(1.2);
+
+}
+a {
+    text-decoration: none; 
+    color: #fff;
+    margin-left: 2vw;
+  }
+  .lien1{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.lien1:hover{
+    transform: scale(1.2);
+}
+
+.botnav1{
+    background-color:  rgba(255, 255, 255, 1);
+    margin-top: 0;
+    height: 10vh;
+    color: #f4511e;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+}
+.container{
+    margin-top: 10vh;
+    height: 105vh;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7) ;
+    display: grid;
+    align-items: center;
+}
+.logo:hover{
+    transform: scale(1.1);
+
+}
+.logo{
+    margin-right: 1vw;
+}
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0c264c ;
+    font-size: 20px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5vh;
+}
+.icone{
+    width: 15vw;
+    height: 25vh;
+    
+}
+
+.pr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: #0c264c;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650 ;
+    font-style: normal;
+    font-size: larger;
+    margin-left: 3vw;
+    margin-top: 0vh ;
+    margin-bottom: 10vh;
+    text-align: center;
+  }
+.ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icone2{
+    width: 10vw;
+    height: 20vh;
+    
+}.icone3{
+    width: 15vw;
+    height: 20vh;
+    
+}.icone4{
+    width: 10vw;
+    height: 15vh;
+    
+}.icone5{
+    width: 20vw;
+    height: 20vh;
+    
+}.icone6{
+    width: 10vw;
+    height: 15vh;
+    
+}
+.para{
+    margin-top: 2vh;
+}
+
+  
